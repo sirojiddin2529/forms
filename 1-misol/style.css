@@ -1,0 +1,45 @@
+.container{
+    width: 100vw;
+    height: 100dvh;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+h1{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0  0 10px 2px black;
+}
+table{
+    height: 60%;
+    width: 60%;
+    border: 2px solid black;
+    box-shadow: 0 0 10px 2px black;
+}
+table td{
+    padding: 20px;
+    border: 2px solid black;
+}
+.row1{
+    height: 150%;
+    border: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 0;
+    padding-right: 4px;
+}
+.row1 .div1, .div2{
+    display: inline-block;
+    border: 2px solid black;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.row1 p{
+    margin: 20px;
+}
