@@ -1,0 +1,27 @@
+.container{
+    width: 100vw;
+    height: 100dvh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 90%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0;
+}
+table tr th{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.n1{
+    background-color: beige;
+}
