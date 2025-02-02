@@ -1,0 +1,31 @@
+.container {
+    width: 100vw;
+    height: 100dvh;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 90%;
+    height: 30%;
+    border: 2px solid rgb(220, 217, 217);
+    border-radius: 5px;
+    text-align: center;
+    padding: 0;
+}
+
+table tr th {
+    background-color: rgb(124, 122, 122);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.n1 {
+    background-color: beige;
+}
+h1{
+    color: rgb(2, 57, 2);
+}
