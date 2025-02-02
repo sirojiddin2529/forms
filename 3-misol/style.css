@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(manzara.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    }
+    
+    .container{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+         
+    }
+    
+    .h11{
+        text-align: center;
+        color: white;
+        background-image: linear-gradient(DeepSkyBlue, Navy );
+        margin: 20px;
+        padding: 10px;
+        border-radius: 20px;
+        width: 50%;
+        
+            
+    }
+    .Asosiy{
+        
+        width: 50%;
+        height: 100%;
+        background-image: linear-gradient(DeepSkyBlue, Navy );
+        box-shadow: 0 0 40px 5px black;
+        border-radius: 25px;
+        padding: 0px;
+    }
+        
+    .h22{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-right: 45px;
+        margin-left: 45px;
+        
+        color: white;
+        background-image: linear-gradient(DeepSkyBlue, Navy );
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .block2{
+        display: flex;	
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+        color: white;
+        
+    }
+    .bolablock{
+        text-align: center;
+        display: inline-block;	
+        width: 100%;
+        height: 100%;
+        border-radius: 25px;
+        background-image: linear-gradient(grey, blue);
+    }
+    .namestyle input{
+        width: 70%;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+        border-style: none;
+        box-shadow: 0 0 40px black;
+    
+    }
+    .bolablock table{
+        width: 100%;
+    }
+    .namestyle{
+        background-image: linear-gradient(MidnightBlue, grey);
+        border-radius: 20px;
+    }
+    .namestyle select{
+        width: 70%;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        border-style: none;
+        box-shadow: 0 0 40px black;
+        
+    }
+    .namestyle textarea{
+        width: 70%;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        border-style: none;
+        box-shadow: 0 0 40px black;
+    }
+    .but {
+        width: 30%;
+        padding:5px;
+        margin: 10px;
+        border-radius: 5px;
+        border-style: none;
+        background-color: Blue;
+        color: white;
+        box-shadow: 0px 0px 10px white;
+    }
+    .but:hover {
+        background-color: white;
+        color: black;
+        
+    }
+    @media screen and (max-width: 1000px) {
+        .Asosiy {
+        width: 80%;
+        }
+    }
+    @media screen and (max-width: 600px){
+        .Asosiy {
+        display: none;
+        }
+        .h11{
+        display: none;
+        }
+    }
